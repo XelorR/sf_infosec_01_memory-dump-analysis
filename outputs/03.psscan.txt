@@ -1,0 +1,72 @@
+Volatility 3 Framework 2.7.0
+
+PID	PPID	ImageFileName	Offset(V)	Threads	Handles	SessionId	Wow64	CreateTime	ExitTime	File output
+
+288	508	VSSVC.exe	0x51f11b0	6	116	0	False	2023-06-22 12:31:43.000000 	N/A	Disabled
+49993448828360	119165821349449	1	0xe79a730	7274601	-	-	True	2002-07-16 11:57:49.000000 	2002-07-16 04:19:41.000000 	Disabled
+2600	2508	vmtoolsd.exe	0x12395590	8	182	1	False	2023-06-22 12:05:14.000000 	N/A	Disabled
+0	210457002039	9	0x13117ef8	12288	-	-	True	2023-06-22 20:34:24.000000 	2018-11-15 22:44:49.000000 	Disabled
+0	181442862679510	e	0x2c22bf00	0	-	-	False	2023-06-22 12:31:24.000000 	2023-06-22 12:31:24.000000 	Disabled
+23579789888052	16777394		0x3d20a695	134221364	-	-	True	2000-08-29 04:32:04.000000 	7309-08-02 08:18:03.000000 	Disabled
+1960	508	msdtc.exe	0x3da07b00	12	145	0	False	2023-06-22 12:04:51.000000 	N/A	Disabled
+1468	508	vmtoolsd.exe	0x3dc2e9b0	13	299	0	False	2023-06-22 12:04:46.000000 	N/A	Disabled
+1488	1440	vm3dservice.ex	0x3dc45a70	2	45	1	False	2023-06-22 12:04:46.000000 	N/A	Disabled
+1724	508	svchost.exe	0x3dd58b00	6	92	0	False	2023-06-22 12:04:47.000000 	N/A	Disabled
+1968	508	dllhost.exe	0x3dd8fb00	13	190	0	False	2023-06-22 12:04:47.000000 	N/A	Disabled
+1908	628	WmiPrvSE.exe	0x3dda2b00	9	197	0	False	2023-06-22 12:04:47.000000 	N/A	Disabled
+852	2756	SearchProtocol	0x3dda3060	8	289	0	False	2023-06-22 12:31:15.000000 	N/A	Disabled
+868	508	svchost.exe	0x3de00280	19	443	0	False	2023-06-22 12:04:43.000000 	N/A	Disabled
+920	508	svchost.exe	0x3de52710	17	599	0	False	2023-06-22 12:04:43.000000 	N/A	Disabled
+964	508	svchost.exe	0x3de5c680	28	838	0	False	2023-06-22 12:04:43.000000 	N/A	Disabled
+2320	508	Ransomware.wan	0x3dea4240	117	497	0	True	2023-06-22 12:30:19.000000 	N/A	Disabled
+1120	508	spoolsv.exe	0x3df15b00	13	273	0	False	2023-06-22 12:04:45.000000 	N/A	Disabled
+1348	508	svchost.exe	0x3df2d060	15	258	0	False	2023-06-22 12:04:45.000000 	N/A	Disabled
+1268	508	svchost.exe	0x3df2f060	11	165	0	False	2023-06-22 12:04:45.000000 	N/A	Disabled
+1156	508	svchost.exe	0x3df4f9b0	18	308	0	False	2023-06-22 12:04:45.000000 	N/A	Disabled
+2648	464	taskmgr.exe	0x3df95870	6	113	1	False	2023-06-22 12:05:59.000000 	N/A	Disabled
+1440	508	vm3dservice.ex	0x3dfb6b00	4	61	0	False	2023-06-22 12:04:46.000000 	N/A	Disabled
+404	344	wininit.exe	0x3e051730	3	76	0	False	2023-06-22 12:04:41.000000 	N/A	Disabled
+464	396	winlogon.exe	0x3e086340	3	113	1	False	2023-06-22 12:04:41.000000 	N/A	Disabled
+508	404	services.exe	0x3e0d8b00	8	226	0	False	2023-06-22 12:04:41.000000 	N/A	Disabled
+1876	628	dllhost.exe	0x3e0d9560	4	79	1	False	2023-06-22 12:30:20.000000 	N/A	Disabled
+516	404	lsass.exe	0x3e0dbb00	6	585	0	False	2023-06-22 12:04:41.000000 	N/A	Disabled
+524	404	lsm.exe	0x3e0e6b00	9	149	0	False	2023-06-22 12:04:41.000000 	N/A	Disabled
+628	508	svchost.exe	0x3e14f720	10	366	0	False	2023-06-22 12:04:42.000000 	N/A	Disabled
+696	508	svchost.exe	0x3e17bb00	7	288	0	False	2023-06-22 12:04:42.000000 	N/A	Disabled
+744	508	svchost.exe	0x3e1a0b00	18	455	0	False	2023-06-22 12:04:42.000000 	N/A	Disabled
+352	344	csrss.exe	0x3e2a39a0	8	626	0	False	2023-06-22 12:04:40.000000 	N/A	Disabled
+416	396	csrss.exe	0x3e31eb00	9	307	1	False	2023-06-22 12:04:41.000000 	N/A	Disabled
+2484	868	dwm.exe	0x3e5ca970	5	152	1	False	2023-06-22 12:05:13.000000 	N/A	Disabled
+2756	508	SearchIndexer.	0x3e5edb00	17	800	0	False	2023-06-22 12:05:22.000000 	N/A	Disabled
+3164	628	dllhost.exe	0x3e697160	0	-	1	False	2023-06-22 12:31:44.000000 	2023-06-22 12:31:50.000000 	Disabled
+2184	1012	@WanaDecryptor	0x3e6a5b00	0	-	0	False	2023-06-22 12:31:27.000000 	2023-06-22 12:31:38.000000 	Disabled
+1016	352	conhost.exe	0x3e76ab00	0	-	0	False	2023-06-22 12:31:27.000000 	2023-06-22 12:31:27.000000 	Disabled
+1060	1792	@WanaDecryptor	0x3e772060	2	71	0	True	2023-06-22 12:31:27.000000 	N/A	Disabled
+1000	508	svchost.exe	0x3e8679b0	13	365	0	False	2023-06-22 12:04:44.000000 	N/A	Disabled
+2248	2508	ida64.exe	0x3e8af430	7	340	1	False	2023-06-22 12:16:18.000000 	N/A	Disabled
+3040	2508	cmd.exe	0x3e9e7750	1	21	1	False	2023-06-22 12:05:39.000000 	N/A	Disabled
+2972	1512	tasksche.exe	0x3ef0f8b0	0	-	1	False	2023-06-22 12:31:13.000000 	2023-06-22 12:31:43.000000 	Disabled
+3048	416	conhost.exe	0x3ef19060	2	53	1	False	2023-06-22 12:05:39.000000 	N/A	Disabled
+1792	1044	tasksche.exe	0x3ef22b00	8	82	0	True	2023-06-22 12:31:13.000000 	N/A	Disabled
+2508	2472	explorer.exe	0x3ef27b00	24	843	1	False	2023-06-22 12:05:13.000000 	N/A	Disabled
+2348	352	conhost.exe	0x3efdb060	1	32	0	False	2023-06-22 12:31:29.000000 	N/A	Disabled
+264	4	smss.exe	0x3f064920	2	29	N/A	False	2023-06-22 12:04:39.000000 	N/A	Disabled
+2432	508	taskhost.exe	0x3f1fbb00	9	241	1	False	2023-06-22 12:05:13.000000 	N/A	Disabled
+3252	3212	@WanaDecryptor	0x3f61e9a0	1	75	1	True	2023-06-22 12:31:45.000000 	N/A	Disabled
+2820	2508	x32dbg.exe	0x3f620300	20	480	1	True	2023-06-22 12:23:34.000000 	N/A	Disabled
+3904	2756	SearchFilterHo	0x3f6c12c0	6	109	0	False	2023-06-22 12:33:18.000000 	N/A	Disabled
+3436	3412	MpCmdRun.exe	0x3f6e4a70	5	116	0	False	2023-06-22 12:32:12.000000 	N/A	Disabled
+2176	628	dllhost.exe	0x3f734b00	0	-	1	False	2023-06-22 12:31:16.000000 	2023-06-22 12:31:38.000000 	Disabled
+3012	1060	taskhsvc.exe	0x3f768060	4	101	0	True	2023-06-22 12:31:29.000000 	N/A	Disabled
+948	2756	SearchFilterHo	0x3f7827a0	0	-	0	False	2023-06-22 12:31:17.000000 	2023-06-22 12:33:18.000000 	Disabled
+716	2508	ProcessHacker.	0x3fc0fb00	9	476	1	False	2023-06-22 12:06:29.000000 	N/A	Disabled
+2968	508	wmpnetwk.exe	0x3fc2e620	18	442	0	False	2023-06-22 12:06:48.000000 	N/A	Disabled
+608	508	svchost.exe	0x3fca6a00	15	431	0	False	2023-06-22 12:06:47.000000 	N/A	Disabled
+1512	2820	Ransomware.wan	0x3fce96d0	11	167	1	True	2023-06-22 12:23:41.000000 	N/A	Disabled
+1080	508	sppsvc.exe	0x3fcee060	4	146	0	False	2023-06-22 12:06:47.000000 	N/A	Disabled
+4048	744	audiodg.exe	0x3fd2f1c0	6	128	0	False	2023-06-22 12:33:33.000000 	N/A	Disabled
+2360	2080	ipconfig.exe	0x3fd7b790	0	-	0	False	2023-06-22 12:34:03.000000 	2023-06-22 12:34:03.000000 	Disabled
+3292	352	conhost.exe	0x3fd90b00	0	-	0	False	2023-06-22 12:34:03.000000 	2023-06-22 12:34:03.000000 	Disabled
+1412	508	VGAuthService.	0x3fe71b00	4	96	0	False	2023-06-22 12:04:45.000000 	N/A	Disabled
+2080	1468	cmd.exe	0x3feb55a0	0	-	0	False	2023-06-22 12:34:03.000000 	2023-06-22 12:34:03.000000 	Disabled
+4	0	System	0x3ffa1860	97	446	N/A	False	2023-06-22 12:04:39.000000 	N/A	Disabled
