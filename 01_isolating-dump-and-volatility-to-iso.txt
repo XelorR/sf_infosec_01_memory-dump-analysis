@@ -1,0 +1,2 @@
+mkisofs -output-charset utf-8 -o Win7-2515534d.vmem.iso Win7-2515534d.vmem
+mkisofs -output-charset utf-8 -o volatility3.iso volatility3
