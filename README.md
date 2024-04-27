@@ -34,7 +34,7 @@ qemu-system-x86_64 -enable-kvm -smp 2 -m 4G -bios /usr/share/edk2/ovmf/OVMF_CODE
 07. host's file manager and terminal are connected
 ![](./07_file-manager-and-terminal-passthrough.png)
 
-08. comparing checksum with initially checked
+08. comparing checksum with initially checked - **THE SAME!!**
 ![](./08_checksum-again.png)
 
 09. run Volatility
