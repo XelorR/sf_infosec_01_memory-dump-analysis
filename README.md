@@ -8,14 +8,14 @@ sha256sum Win7-2515534d.vmem
 a3e7409d7aab43921b2e377787e042b52bb241837d5269e7a29ac3f4373a71d8  Win7-2515534d.vmem
 ```
 
-01. preparing dump isolation
+01. clonning Volatility3
+![](./02_clonning-volatility.png)
+
+02. preparing dump isolation
 ```bash
 mkisofs -output-charset utf-8 -o Win7-2515534d.vmem.iso Win7-2515534d.vmem
 mkisofs -output-charset utf-8 -o volatility3.iso volatility3
 ```
-
-02. clonning Volatility3
-![](./02_clonning-volatility.png)
 
 03. running VM with mounted ISOs and ports passthrough
 ```bash
