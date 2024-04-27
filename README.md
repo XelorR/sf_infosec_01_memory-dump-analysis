@@ -39,3 +39,39 @@ qemu-system-x86_64 -enable-kvm -smp 2 -m 4G -bios /usr/share/edk2/ovmf/OVMF_CODE
 
 09. run Volatility
 ![](./09_volatility-running.png)
+
+10. OS INFO
+
+```bash
+ ~/volatility3/vol.py -f Win7-2515534d.vmem windows.info
+```
+
+![](./10_os-info.png)
+
+> Variable        Value
+>
+> Kernel Base     0xf80002a07000
+> DTB     0x187000
+> Symbols file:///home/kali/volatility3/volatility3/symbols/windows/ntkrnlmp.pdb/0D850C4D902640DFB487885688EA4213-1.json.xz
+> Is64Bit True
+> IsPAE   False
+> layer_name      0 WindowsIntel32e
+> memory_layer    1 FileLayer
+> KdDebuggerDataBlock     0xf80002be9120
+> NTBuildLab      7601.24291.amd64fre.win7sp1_ldr_
+> CSDVersion      1
+> KdVersionBlock  0xf80002be90e8
+> Major/Minor     15.7601
+> MachineType     34404
+> KeNumberProcessors      1
+> SystemTime      2023-06-22 12:34:03
+> NtSystemRoot    C:\Windows
+> NtProductType   NtProductWinNt
+> NtMajorVersion  6
+> NtMinorVersion  1
+> PE MajorOperatingSystemVersion  6
+> PE MinorOperatingSystemVersion  1
+> PE Machine      34404
+> PE TimeDateStamp        Sun Nov 11 00:44:59 2018
+
+
