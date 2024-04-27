@@ -26,6 +26,16 @@ qemu-system-x86_64 -enable-kvm -smp 2 -m 4G -bios /usr/share/edk2/ovmf/OVMF_CODE
 ![](./04_kali-selecting-forensic-mode.png)
 
 05. dump and volatility mounted in VM read only
-```bash
 ![](./05_dump-and-volatility-mounted.png)
-```
+
+06. installing ssh to control from host and to exchange files
+![](./06_installing-ssh-in-vm.png)
+
+07. host's file manager and terminal are connected
+![](./07_file-manager-and-terminal-passthrough.png)
+
+08. comparing checksum with initially checked
+![](./08_checksum-again.png)
+
+09. run Volatility
+![](./09_volatility-running.png)
