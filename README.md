@@ -100,3 +100,9 @@ for i, command in enumerate(commands):
 ![8.2](img/8.2.png)
 
 ![8.2 answer](img/8.2_answer.png)
+
+#### 8.3
+
+![8.3](img/8.3.png)
+
+![8.3 answer](img/8.3_answer.png)
