@@ -1,12 +1,14 @@
 # Report
 
+## Preparing the environment
+
 00. dump checksum
 ![](./00_dump-checksum.png)
 
 ```bash
 sha256sum Win7-2515534d.vmem
-a3e7409d7aab43921b2e377787e042b52bb241837d5269e7a29ac3f4373a71d8  Win7-2515534d.vmem
 ```
+> a3e7409d7aab43921b2e377787e042b52bb241837d5269e7a29ac3f4373a71d8  Win7-2515534d.vmem
 
 01. clonning Volatility3
 ![](./02_clonning-volatility.png)
@@ -40,41 +42,53 @@ qemu-system-x86_64 -enable-kvm -smp 2 -m 4G -bios /usr/share/edk2/ovmf/OVMF_CODE
 09. run Volatility
 ![](./09_volatility-running.png)
 
-10. OS INFO
 
-```bash
- ~/volatility3/vol.py -f Win7-2515534d.vmem windows.info
+## Riddles and answers
+
+### Scanning witn Volatility V3
+
+At first I was generating outputs of some commonly used commands, like this:
+
+```python
+#!/usr/bin/python3
+
+from subprocess import run, PIPE
+
+commands = [
+        "info",
+        "pslist",
+        "psscan",
+        "pstree",
+        "handles",
+        "dlllist",
+        "netstat",
+        "netscan",
+        "filescan",
+        "registry.printkey",
+        "hivescan",
+        "hivelist",
+        "cmdline",
+        "malfind",
+        ]
+
+for i, command in enumerate(commands):
+    print(f"\n\n{i:02} Running {command}")
+    result = run([
+                  "/home/kali/volatility3/vol.py",
+                   "-f", "/media/kali/Win7-2515534d.vmem/Win7-2515534d.vmem",
+                   f"windows.{command}",
+                  ],
+                 stdout=PIPE,
+                 text=True,
+                 )
+    with open(f"/home/kali/Documents/{i:02d}_{command}.txt", "w") as f:
+        f.write(result.stdout)
 ```
-
-![](./10_os-info.png)
-```
-Variable        Value
-
-Kernel Base     0xf80002a07000
-DTB     0x187000
-Symbols file:///home/kali/volatility3/volatility3/symbols/windows/ntkrnlmp.pdb/0D850C4D902640DFB487885688EA4213-1.json.xz
-Is64Bit True
-IsPAE   False
-layer_name      0 WindowsIntel32e
-memory_layer    1 FileLayer
-KdDebuggerDataBlock     0xf80002be9120
-NTBuildLab      7601.24291.amd64fre.win7sp1_ldr_
-CSDVersion      1
-KdVersionBlock  0xf80002be90e8
-Major/Minor     15.7601
-MachineType     34404
-KeNumberProcessors      1
-SystemTime      2023-06-22 12:34:03
-NtSystemRoot    C:\Windows
-NtProductType   NtProductWinNt
-NtMajorVersion  6
-NtMinorVersion  1
-PE MajorOperatingSystemVersion  6
-PE MinorOperatingSystemVersion  1
-PE Machine      34404
-PE TimeDateStamp        Sun Nov 11 00:44:59 2018
-```
-
-11. OUTPUTS
 
 [outputs](./outputs)
+
+### Learning tasks
+
+![8.1](img/8.1.png)
+
+![8.1 answer](img/8.1_answer.png)
