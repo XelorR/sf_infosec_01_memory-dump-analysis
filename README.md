@@ -1,4 +1,6 @@
-# Report
+# Memory dump analysis report
+
+As part of SF InfoSec courses homework assessment
 
 ## Preparing the environment
 
