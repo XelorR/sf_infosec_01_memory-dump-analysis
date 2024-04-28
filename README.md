@@ -107,4 +107,17 @@ for i, command in enumerate(commands):
 
 ![8.3](img/8.3.png)
 
+As I didn't find PIP in Volatility3 dlllist, I just used Volatility2:
+```bash
+python2.7 ~/volatility/vol.py --profile=Win7SP1x64 -f /media/kali/Win7-2515534d.vmem/Win7-2515534d.vmem dlllist | less
+```
+
 ![8.3 answer](img/8.3_answer.png)
+
+[Volatility v2 dll list](outputs/05_dlllist_v2.txt)
+
+And, finally, let's check one more time that sha256 sum is still the same:
+
+![](img/11_checksum.png)
+
+- [x] is the same
