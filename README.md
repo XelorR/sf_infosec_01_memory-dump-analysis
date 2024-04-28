@@ -107,10 +107,12 @@ for i, command in enumerate(commands):
 
 ![8.3](img/8.3.png)
 
-As I didn't find PIP in Volatility3 dlllist, I just used Volatility2:
+As I didn't find PID in Volatility3 dlllist, I just used Volatility2:
 ```bash
 python2.7 ~/volatility/vol.py --profile=Win7SP1x64 -f /media/kali/Win7-2515534d.vmem/Win7-2515534d.vmem dlllist | less
 ```
+
+And here it is:
 
 ![8.3 answer](img/8.3_answer.png)
 
