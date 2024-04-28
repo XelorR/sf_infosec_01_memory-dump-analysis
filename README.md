@@ -87,8 +87,16 @@ for i, command in enumerate(commands):
 
 [outputs](./outputs)
 
-### Learning tasks
+### Final: answering
+
+#### 8.1
 
 ![8.1](img/8.1.png)
 
 ![8.1 answer](img/8.1_answer.png)
+
+#### 8.2
+
+![8.2](img/8.2.png)
+
+![8.2 answer](img/8.2_answer.png)
