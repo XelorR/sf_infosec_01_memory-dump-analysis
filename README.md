@@ -29,7 +29,7 @@ qemu-system-x86_64 -enable-kvm -smp 2 -m 4G -bios /usr/share/edk2/ovmf/OVMF_CODE
 04. boot Kali in forensic mode
 ![](./img/04_kali-selecting-forensic-mode.png)
 
-05. dump and volatility mounted in VM read only
+05. dump and volatility mounted in VM read only (copied Volatility to $HOME later)
 ![](./img/05_dump-and-volatility-mounted.png)
 
 06. installing ssh to control from host and to exchange files
