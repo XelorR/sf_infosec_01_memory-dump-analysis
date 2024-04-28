@@ -1,0 +1,54 @@
+Volatility 3 Framework 2.7.0
+
+Last Write Time	Hive Offset	Type	Key	Name	Data	Volatile
+
+2023-06-22 12:05:42.000000 	0xf8a00000f010	Key	[NONAME]	A		False
+2023-06-22 12:04:42.000000 	0xf8a00000f010	Key	[NONAME]	MACHINE		False
+2023-06-22 12:05:12.000000 	0xf8a00000f010	Key	[NONAME]	USER		False
+2023-06-22 07:08:32.000000 	0xf8a000024010	Key	\REGISTRY\MACHINE\SYSTEM	ControlSet001		False
+2023-06-22 07:08:22.000000 	0xf8a000024010	Key	\REGISTRY\MACHINE\SYSTEM	MountedDevices		False
+2023-06-22 12:19:32.000000 	0xf8a000024010	Key	\REGISTRY\MACHINE\SYSTEM	RNG		False
+2009-07-14 05:08:22.000000 	0xf8a000024010	Key	\REGISTRY\MACHINE\SYSTEM	Select		False
+2022-03-20 10:43:10.000000 	0xf8a000024010	Key	\REGISTRY\MACHINE\SYSTEM	Setup		False
+2023-06-22 07:21:47.000000 	0xf8a000024010	Key	\REGISTRY\MACHINE\SYSTEM	WPA		False
+2023-06-22 12:04:26.000000 	0xf8a000024010	Key	\REGISTRY\MACHINE\SYSTEM	CurrentControlSet		True
+2023-06-22 12:04:26.000000 	0xf8a000058010	Key	\REGISTRY\MACHINE\HARDWARE	ACPI		False
+2023-06-22 12:04:26.000000 	0xf8a000058010	Key	\REGISTRY\MACHINE\HARDWARE	DESCRIPTION		False
+2023-06-22 12:04:39.000000 	0xf8a000058010	Key	\REGISTRY\MACHINE\HARDWARE	DEVICEMAP		False
+2009-07-14 04:49:37.000000 	0xf8a0000f7410	Key	\SystemRoot\System32\Config\DEFAULT	Control Panel		False
+2009-07-14 04:48:57.000000 	0xf8a0000f7410	Key	\SystemRoot\System32\Config\DEFAULT	Environment		False
+2009-07-14 04:48:57.000000 	0xf8a0000f7410	Key	\SystemRoot\System32\Config\DEFAULT	EUDC		False
+2023-06-22 07:10:11.000000 	0xf8a0000f7410	Key	\SystemRoot\System32\Config\DEFAULT	Keyboard Layout		False
+2023-06-22 07:13:01.000000 	0xf8a0000f7410	Key	\SystemRoot\System32\Config\DEFAULT	Printers		False
+2023-06-22 07:43:00.000000 	0xf8a0000f7410	Key	\SystemRoot\System32\Config\DEFAULT	Software		False
+2009-07-14 04:49:18.000000 	0xf8a0000f7410	Key	\SystemRoot\System32\Config\DEFAULT	SYSTEM		False
+-	0xf8a000844010	Key	?\	-		-
+2009-07-14 04:48:57.000000 	0xf8a0009d6010	Key	\SystemRoot\System32\Config\SOFTWARE	ATI Technologies		False
+2023-06-22 11:49:31.000000 	0xf8a0009d6010	Key	\SystemRoot\System32\Config\SOFTWARE	Classes		False
+2009-07-14 04:55:00.000000 	0xf8a0009d6010	Key	\SystemRoot\System32\Config\SOFTWARE	Clients		False
+2023-06-22 11:49:33.000000 	0xf8a0009d6010	Key	\SystemRoot\System32\Config\SOFTWARE	Hex-Rays SA		False
+2009-07-14 04:48:57.000000 	0xf8a0009d6010	Key	\SystemRoot\System32\Config\SOFTWARE	Intel		False
+2023-06-22 12:04:56.000000 	0xf8a0009d6010	Key	\SystemRoot\System32\Config\SOFTWARE	Microsoft		False
+2018-11-15 21:44:31.000000 	0xf8a0009d6010	Key	\SystemRoot\System32\Config\SOFTWARE	MozillaPlugins		False
+2009-07-14 04:48:57.000000 	0xf8a0009d6010	Key	\SystemRoot\System32\Config\SOFTWARE	ODBC		False
+2009-07-14 04:49:20.000000 	0xf8a0009d6010	Key	\SystemRoot\System32\Config\SOFTWARE	Policies		False
+2023-06-22 07:42:47.000000 	0xf8a0009d6010	Key	\SystemRoot\System32\Config\SOFTWARE	RegisteredApplications		False
+2010-11-21 07:17:27.000000 	0xf8a0009d6010	Key	\SystemRoot\System32\Config\SOFTWARE	Sonic		False
+2023-06-22 07:42:59.000000 	0xf8a0009d6010	Key	\SystemRoot\System32\Config\SOFTWARE	VMware, Inc.		False
+2023-06-22 12:31:13.000000 	0xf8a0009d6010	Key	\SystemRoot\System32\Config\SOFTWARE	Wow6432Node		False
+2011-12-20 12:19:16.000000 	0xf8a000e0a010	Key	\SystemRoot\System32\Config\SAM	SAM		False
+-	0xf8a000e36010	Key	?\	-		-
+2023-06-22 07:13:19.000000 	0xf8a0016a8010	Key	\??\C:\Users\Analyst\ntuser.dat	AppEvents		False
+2023-06-22 11:48:05.000000 	0xf8a0016a8010	Key	\??\C:\Users\Analyst\ntuser.dat	Console		False
+2023-06-22 07:13:38.000000 	0xf8a0016a8010	Key	\??\C:\Users\Analyst\ntuser.dat	Control Panel		False
+2023-06-22 08:43:10.000000 	0xf8a0016a8010	Key	\??\C:\Users\Analyst\ntuser.dat	Environment		False
+2023-06-22 07:13:19.000000 	0xf8a0016a8010	Key	\??\C:\Users\Analyst\ntuser.dat	EUDC		False
+2023-06-22 07:13:22.000000 	0xf8a0016a8010	Key	\??\C:\Users\Analyst\ntuser.dat	Identities		False
+2023-06-22 07:13:20.000000 	0xf8a0016a8010	Key	\??\C:\Users\Analyst\ntuser.dat	Keyboard Layout		False
+2023-06-22 07:13:19.000000 	0xf8a0016a8010	Key	\??\C:\Users\Analyst\ntuser.dat	Network		False
+2023-06-22 07:13:19.000000 	0xf8a0016a8010	Key	\??\C:\Users\Analyst\ntuser.dat	Printers		False
+2023-06-22 12:16:22.000000 	0xf8a0016a8010	Key	\??\C:\Users\Analyst\ntuser.dat	Software		False
+2023-06-22 07:13:19.000000 	0xf8a0016a8010	Key	\??\C:\Users\Analyst\ntuser.dat	System		False
+2023-06-22 12:05:13.000000 	0xf8a0016a8010	Key	\??\C:\Users\Analyst\ntuser.dat	Volatile Environment		True
+2023-06-22 07:13:31.000000 	0xf8a001710010	Key	\??\C:\Users\Analyst\AppData\Local\Microsoft\Windows\UsrClass.dat	Local Settings		False
+2023-06-22 12:34:03.000000 	0xf8a001d4b410	Key	\??\C:\System Volume Information\Syscache.hve	DefaultObjectStore		False

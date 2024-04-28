@@ -1,0 +1,63 @@
+Volatility 3 Framework 2.7.0
+
+PID	Process	Args
+
+4	System	Required memory at 0x20 is not valid (process exited?)
+264	smss.exe	Required memory at 0x7fffffd9020 is inaccessible (swapped)
+352	csrss.exe	%SystemRoot%\system32\csrss.exe ObjectDirectory=\Windows SharedSection=1024,20480,768 Windows=On SubSystemType=Windows ServerDll=basesrv,1 ServerDll=winsrv:UserServerDllInitialization,3 ServerDll=winsrv:ConServerDllInitialization,2 ServerDll=sxssrv,4 ProfileControl=Off MaxRequestThreads=16
+404	wininit.exe	Required memory at 0x7fffffdf020 is inaccessible (swapped)
+416	csrss.exe	Required memory at 0x3b1a28 is inaccessible (swapped)
+464	winlogon.exe	winlogon.exe
+508	services.exe	C:\Windows\system32\services.exe
+516	lsass.exe	C:\Windows\system32\lsass.exe
+524	lsm.exe	Required memory at 0x1e1d68 is inaccessible (swapped)
+628	svchost.exe	C:\Windows\system32\svchost.exe -k DcomLaunch
+696	svchost.exe	C:\Windows\system32\svchost.exe -k RPCSS
+744	svchost.exe	C:\Windows\System32\svchost.exe -k LocalServiceNetworkRestricted
+868	svchost.exe	C:\Windows\System32\svchost.exe -k LocalSystemNetworkRestricted
+920	svchost.exe	C:\Windows\system32\svchost.exe -k LocalService
+964	svchost.exe	C:\Windows\system32\svchost.exe -k netsvcs
+1000	svchost.exe	C:\Windows\system32\svchost.exe -k NetworkService
+1120	spoolsv.exe	Required memory at 0xc1ea8 is inaccessible (swapped)
+1156	svchost.exe	C:\Windows\system32\svchost.exe -k LocalServiceNoNetwork
+1268	svchost.exe	C:\Windows\System32\svchost.exe -k utcsvc
+1348	svchost.exe	Required memory at 0x191f28 is inaccessible (swapped)
+1412	VGAuthService.	Required memory at 0x7fffffdd020 is inaccessible (swapped)
+1440	vm3dservice.ex	Required memory at 0x7fffffd3020 is inaccessible (swapped)
+1468	vmtoolsd.exe	"C:\Program Files\VMware\VMware Tools\vmtoolsd.exe"
+1488	vm3dservice.ex	Required memory at 0x3a1ea8 is inaccessible (swapped)
+1724	svchost.exe	Required memory at 0x7fffffdf020 is inaccessible (swapped)
+1908	WmiPrvSE.exe	C:\Windows\system32\wbem\wmiprvse.exe
+1968	dllhost.exe	Required memory at 0x371ea8 is inaccessible (swapped)
+1960	msdtc.exe	Required memory at 0x7fffffd6020 is inaccessible (swapped)
+2432	taskhost.exe	"taskhost.exe"
+2484	dwm.exe	Required memory at 0x2426dc is inaccessible (swapped)
+2508	explorer.exe	C:\Windows\Explorer.EXE
+2600	vmtoolsd.exe	"C:\Program Files\VMware\VMware Tools\vmtoolsd.exe" -n vmusr
+2756	SearchIndexer.	C:\Windows\system32\SearchIndexer.exe /Embedding
+3040	cmd.exe	Required memory at 0x7fffffd8020 is inaccessible (swapped)
+3048	conhost.exe	Required memory at 0x192186 is inaccessible (swapped)
+2648	taskmgr.exe	taskmgr.exe /2 
+716	ProcessHacker.	"C:\Users\Analyst\Desktop\REMA-Tools\ProcessHacker\ProcessHacker.exe" 
+1080	sppsvc.exe	Required memory at 0x7fffffdf020 is inaccessible (swapped)
+608	svchost.exe	C:\Windows\System32\svchost.exe -k secsvcs
+2968	wmpnetwk.exe	"C:\Program Files\Windows Media Player\wmpnetwk.exe"
+2248	ida64.exe	"C:\Program Files\IDA Freeware 8.2\ida64.exe" 
+2820	x32dbg.exe	"C:\Users\Analyst\Desktop\REMA-Tools\x64dbg\release\x32\x32dbg.exe" 
+1512	Ransomware.wan	"C:\Users\Analyst\Desktop\Samples\Ransomware.wannacry.exe"
+2320	Ransomware.wan	C:\Users\Analyst\Desktop\Samples\Ransomware.wannacry.exe -m security
+1876	dllhost.exe	C:\Windows\system32\DllHost.exe /Processid:{F9717507-6651-4EDB-BFF7-AE615179BCCF}
+2972	tasksche.exe	Required memory at 0x7efdf020 is not valid (process exited?)
+1792	tasksche.exe	C:\ProgramData\ggzstcat367\tasksche.exe
+852	SearchProtocol	"C:\Windows\system32\SearchProtocolHost.exe" Global\UsGthrFltPipeMssGthrPipe8_ Global\UsGthrCtrlFltPipeMssGthrPipe8 1 -2147483646 "Software\Microsoft\Windows Search" "Mozilla/4.0 (compatible; MSIE 6.0; Windows NT; MS Search 4.0 Robot)" "C:\ProgramData\Microsoft\Search\Data\Temp\usgthrsvc" "DownLevelDaemon" 
+1060	@WanaDecryptor	@WanaDecryptor@.exe co
+3012	taskhsvc.exe	TaskData\Tor\taskhsvc.exe
+2348	conhost.exe	\??\C:\Windows\system32\conhost.exe "-800861120-6588570581867578094-392611571-129805996782902964-13590525961117407619
+288	VSSVC.exe	C:\Windows\system32\vssvc.exe
+3252	@WanaDecryptor	"C:\ProgramData\ggzstcat367\@WanaDecryptor@.exe"
+3436	MpCmdRun.exe	"c:\program files\windows defender\MpCmdRun.exe" SpyNetService -RestrictPrivileges -AccessKey 8E60AF74-1E05-074F-EA46-B3B04764A3E0 -Reinvoke
+3904	SearchFilterHo	"C:\Windows\system32\SearchFilterHost.exe" 0 520 524 532 65536 528 
+4048	audiodg.exe	C:\Windows\system32\AUDIODG.EXE 0x39c
+2080	cmd.exe	Required memory at 0x7fffffdf020 is not valid (process exited?)
+3292	conhost.exe	Required memory at 0x7fffffd4020 is not valid (process exited?)
+2360	ipconfig.exe	Required memory at 0x7fffffdf020 is not valid (process exited?)

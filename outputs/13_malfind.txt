@@ -1,0 +1,419 @@
+Volatility 3 Framework 2.7.0
+
+PID	Process	Start VPN	End VPN	Tag	Protection	CommitCharge	PrivateMemory	File output	Notes	Hexdump	Disasm
+
+2508	explorer.exe	0x47e0000	0x47e0fff	VadS	PAGE_EXECUTE_READWRITE	1	1	Disabled	N/A	
+00 00 00 00 00 00 00 00	........
+00 00 00 00 00 00 00 00	........
+00 00 00 00 00 00 00 00	........
+00 00 00 00 00 00 00 00	........
+00 00 7e 04 00 00 00 00	..~.....
+00 00 00 00 00 00 00 00	........
+00 00 00 00 00 00 00 00	........
+00 00 00 00 00 00 00 00	........	
+0x47e0000:	add	byte ptr [rax], al
+0x47e0002:	add	byte ptr [rax], al
+0x47e0004:	add	byte ptr [rax], al
+0x47e0006:	add	byte ptr [rax], al
+0x47e0008:	add	byte ptr [rax], al
+0x47e000a:	add	byte ptr [rax], al
+0x47e000c:	add	byte ptr [rax], al
+0x47e000e:	add	byte ptr [rax], al
+0x47e0010:	add	byte ptr [rax], al
+0x47e0012:	add	byte ptr [rax], al
+0x47e0014:	add	byte ptr [rax], al
+0x47e0016:	add	byte ptr [rax], al
+0x47e0018:	add	byte ptr [rax], al
+0x47e001a:	add	byte ptr [rax], al
+0x47e001c:	add	byte ptr [rax], al
+0x47e001e:	add	byte ptr [rax], al
+0x47e0020:	add	byte ptr [rax], al
+0x47e0022:	jle	0x47e0028
+0x47e0024:	add	byte ptr [rax], al
+0x47e0026:	add	byte ptr [rax], al
+0x47e0028:	add	byte ptr [rax], al
+0x47e002a:	add	byte ptr [rax], al
+0x47e002c:	add	byte ptr [rax], al
+0x47e002e:	add	byte ptr [rax], al
+0x47e0030:	add	byte ptr [rax], al
+0x47e0032:	add	byte ptr [rax], al
+0x47e0034:	add	byte ptr [rax], al
+0x47e0036:	add	byte ptr [rax], al
+0x47e0038:	add	byte ptr [rax], al
+0x47e003a:	add	byte ptr [rax], al
+0x47e003c:	add	byte ptr [rax], al
+0x47e003e:	add	byte ptr [rax], al
+608	svchost.exe	0x6dd0000	0x6dd0fff	VadS	PAGE_EXECUTE_READWRITE	1	1	Disabled	N/A	
+55 55 55 55 55 55 55 55	UUUUUUUU
+55 55 55 55 55 55 55 55	UUUUUUUU
+55 55 55 55 55 55 55 55	UUUUUUUU
+55 55 55 55 55 55 55 55	UUUUUUUU
+55 55 55 55 55 55 55 55	UUUUUUUU
+55 55 55 55 55 55 55 55	UUUUUUUU
+55 55 55 55 55 55 55 55	UUUUUUUU
+55 55 55 55 55 55 55 55	UUUUUUUU	
+0x6dd0000:	push	rbp
+0x6dd0001:	push	rbp
+0x6dd0002:	push	rbp
+0x6dd0003:	push	rbp
+0x6dd0004:	push	rbp
+0x6dd0005:	push	rbp
+0x6dd0006:	push	rbp
+0x6dd0007:	push	rbp
+0x6dd0008:	push	rbp
+0x6dd0009:	push	rbp
+0x6dd000a:	push	rbp
+0x6dd000b:	push	rbp
+0x6dd000c:	push	rbp
+0x6dd000d:	push	rbp
+0x6dd000e:	push	rbp
+0x6dd000f:	push	rbp
+0x6dd0010:	push	rbp
+0x6dd0011:	push	rbp
+0x6dd0012:	push	rbp
+0x6dd0013:	push	rbp
+0x6dd0014:	push	rbp
+0x6dd0015:	push	rbp
+0x6dd0016:	push	rbp
+0x6dd0017:	push	rbp
+0x6dd0018:	push	rbp
+0x6dd0019:	push	rbp
+0x6dd001a:	push	rbp
+0x6dd001b:	push	rbp
+0x6dd001c:	push	rbp
+0x6dd001d:	push	rbp
+0x6dd001e:	push	rbp
+0x6dd001f:	push	rbp
+0x6dd0020:	push	rbp
+0x6dd0021:	push	rbp
+0x6dd0022:	push	rbp
+0x6dd0023:	push	rbp
+0x6dd0024:	push	rbp
+0x6dd0025:	push	rbp
+0x6dd0026:	push	rbp
+0x6dd0027:	push	rbp
+0x6dd0028:	push	rbp
+0x6dd0029:	push	rbp
+0x6dd002a:	push	rbp
+0x6dd002b:	push	rbp
+0x6dd002c:	push	rbp
+0x6dd002d:	push	rbp
+0x6dd002e:	push	rbp
+0x6dd002f:	push	rbp
+0x6dd0030:	push	rbp
+0x6dd0031:	push	rbp
+0x6dd0032:	push	rbp
+0x6dd0033:	push	rbp
+0x6dd0034:	push	rbp
+0x6dd0035:	push	rbp
+0x6dd0036:	push	rbp
+0x6dd0037:	push	rbp
+0x6dd0038:	push	rbp
+0x6dd0039:	push	rbp
+0x6dd003a:	push	rbp
+0x6dd003b:	push	rbp
+0x6dd003c:	push	rbp
+0x6dd003d:	push	rbp
+0x6dd003e:	push	rbp
+0x6dd003f:	push	rbp
+608	svchost.exe	0xb480000	0xb486fff	VadS	PAGE_EXECUTE_READWRITE	7	1	Disabled	N/A	
+55 55 55 55 55 55 55 55	UUUUUUUU
+55 55 55 55 55 55 55 55	UUUUUUUU
+55 55 55 55 55 55 55 55	UUUUUUUU
+55 55 55 55 55 55 55 55	UUUUUUUU
+55 55 55 55 55 55 55 55	UUUUUUUU
+55 55 55 55 55 55 55 55	UUUUUUUU
+55 55 55 55 55 55 55 55	UUUUUUUU
+55 55 55 55 55 55 55 55	UUUUUUUU	
+0xb480000:	push	rbp
+0xb480001:	push	rbp
+0xb480002:	push	rbp
+0xb480003:	push	rbp
+0xb480004:	push	rbp
+0xb480005:	push	rbp
+0xb480006:	push	rbp
+0xb480007:	push	rbp
+0xb480008:	push	rbp
+0xb480009:	push	rbp
+0xb48000a:	push	rbp
+0xb48000b:	push	rbp
+0xb48000c:	push	rbp
+0xb48000d:	push	rbp
+0xb48000e:	push	rbp
+0xb48000f:	push	rbp
+0xb480010:	push	rbp
+0xb480011:	push	rbp
+0xb480012:	push	rbp
+0xb480013:	push	rbp
+0xb480014:	push	rbp
+0xb480015:	push	rbp
+0xb480016:	push	rbp
+0xb480017:	push	rbp
+0xb480018:	push	rbp
+0xb480019:	push	rbp
+0xb48001a:	push	rbp
+0xb48001b:	push	rbp
+0xb48001c:	push	rbp
+0xb48001d:	push	rbp
+0xb48001e:	push	rbp
+0xb48001f:	push	rbp
+0xb480020:	push	rbp
+0xb480021:	push	rbp
+0xb480022:	push	rbp
+0xb480023:	push	rbp
+0xb480024:	push	rbp
+0xb480025:	push	rbp
+0xb480026:	push	rbp
+0xb480027:	push	rbp
+0xb480028:	push	rbp
+0xb480029:	push	rbp
+0xb48002a:	push	rbp
+0xb48002b:	push	rbp
+0xb48002c:	push	rbp
+0xb48002d:	push	rbp
+0xb48002e:	push	rbp
+0xb48002f:	push	rbp
+0xb480030:	push	rbp
+0xb480031:	push	rbp
+0xb480032:	push	rbp
+0xb480033:	push	rbp
+0xb480034:	push	rbp
+0xb480035:	push	rbp
+0xb480036:	push	rbp
+0xb480037:	push	rbp
+0xb480038:	push	rbp
+0xb480039:	push	rbp
+0xb48003a:	push	rbp
+0xb48003b:	push	rbp
+0xb48003c:	push	rbp
+0xb48003d:	push	rbp
+0xb48003e:	push	rbp
+0xb48003f:	push	rbp
+608	svchost.exe	0x123d0000	0x124cffff	VadS	PAGE_EXECUTE_READWRITE	256	1	Disabled	N/A	
+00 00 00 00 00 00 00 00	........
+00 00 00 00 00 00 00 00	........
+00 00 00 00 00 00 00 00	........
+00 00 00 00 00 00 00 00	........
+00 00 00 00 00 00 00 00	........
+00 00 00 00 00 00 00 00	........
+00 00 00 00 00 00 00 00	........
+00 00 00 00 00 00 00 00	........	
+0x123d0000:	add	byte ptr [rax], al
+0x123d0002:	add	byte ptr [rax], al
+0x123d0004:	add	byte ptr [rax], al
+0x123d0006:	add	byte ptr [rax], al
+0x123d0008:	add	byte ptr [rax], al
+0x123d000a:	add	byte ptr [rax], al
+0x123d000c:	add	byte ptr [rax], al
+0x123d000e:	add	byte ptr [rax], al
+0x123d0010:	add	byte ptr [rax], al
+0x123d0012:	add	byte ptr [rax], al
+0x123d0014:	add	byte ptr [rax], al
+0x123d0016:	add	byte ptr [rax], al
+0x123d0018:	add	byte ptr [rax], al
+0x123d001a:	add	byte ptr [rax], al
+0x123d001c:	add	byte ptr [rax], al
+0x123d001e:	add	byte ptr [rax], al
+0x123d0020:	add	byte ptr [rax], al
+0x123d0022:	add	byte ptr [rax], al
+0x123d0024:	add	byte ptr [rax], al
+0x123d0026:	add	byte ptr [rax], al
+0x123d0028:	add	byte ptr [rax], al
+0x123d002a:	add	byte ptr [rax], al
+0x123d002c:	add	byte ptr [rax], al
+0x123d002e:	add	byte ptr [rax], al
+0x123d0030:	add	byte ptr [rax], al
+0x123d0032:	add	byte ptr [rax], al
+0x123d0034:	add	byte ptr [rax], al
+0x123d0036:	add	byte ptr [rax], al
+0x123d0038:	add	byte ptr [rax], al
+0x123d003a:	add	byte ptr [rax], al
+0x123d003c:	add	byte ptr [rax], al
+0x123d003e:	add	byte ptr [rax], al
+608	svchost.exe	0x12350000	0x123cffff	VadS	PAGE_EXECUTE_READWRITE	128	1	Disabled	N/A	
+00 00 00 00 00 00 00 00	........
+00 00 00 00 00 00 00 00	........
+00 00 00 00 00 00 00 00	........
+00 00 00 00 00 00 00 00	........
+00 00 00 00 00 00 00 00	........
+00 00 00 00 00 00 00 00	........
+00 00 00 00 00 00 00 00	........
+00 00 00 00 00 00 00 00	........	
+0x12350000:	add	byte ptr [rax], al
+0x12350002:	add	byte ptr [rax], al
+0x12350004:	add	byte ptr [rax], al
+0x12350006:	add	byte ptr [rax], al
+0x12350008:	add	byte ptr [rax], al
+0x1235000a:	add	byte ptr [rax], al
+0x1235000c:	add	byte ptr [rax], al
+0x1235000e:	add	byte ptr [rax], al
+0x12350010:	add	byte ptr [rax], al
+0x12350012:	add	byte ptr [rax], al
+0x12350014:	add	byte ptr [rax], al
+0x12350016:	add	byte ptr [rax], al
+0x12350018:	add	byte ptr [rax], al
+0x1235001a:	add	byte ptr [rax], al
+0x1235001c:	add	byte ptr [rax], al
+0x1235001e:	add	byte ptr [rax], al
+0x12350020:	add	byte ptr [rax], al
+0x12350022:	add	byte ptr [rax], al
+0x12350024:	add	byte ptr [rax], al
+0x12350026:	add	byte ptr [rax], al
+0x12350028:	add	byte ptr [rax], al
+0x1235002a:	add	byte ptr [rax], al
+0x1235002c:	add	byte ptr [rax], al
+0x1235002e:	add	byte ptr [rax], al
+0x12350030:	add	byte ptr [rax], al
+0x12350032:	add	byte ptr [rax], al
+0x12350034:	add	byte ptr [rax], al
+0x12350036:	add	byte ptr [rax], al
+0x12350038:	add	byte ptr [rax], al
+0x1235003a:	add	byte ptr [rax], al
+0x1235003c:	add	byte ptr [rax], al
+0x1235003e:	add	byte ptr [rax], al
+2820	x32dbg.exe	0x2fa0000	0x2faffff	VadS	PAGE_EXECUTE_READWRITE	16	1	Disabled	N/A	
+50 02 00 00 00 00 00 00	P.......
+55 57 56 53 8b d9 83 ec	UWVS....
+48 8b 43 08 83 e8 02 89	H.C.....
+44 24 34 89 44 24 38 89	D$4.D$8.
+44 24 3c 89 5c 24 10 89	D$<.\$..
+d8 8b 58 04 8b 70 0c 8b	..X..p..
+08 8b 40 20 8b 51 04 8b	..@..Q..
+79 08 83 c0 01 89 44 24	y.....D$	
+0x2fa0000:	push	eax
+0x2fa0001:	add	al, byte ptr [eax]
+0x2fa0003:	add	byte ptr [eax], al
+0x2fa0005:	add	byte ptr [eax], al
+0x2fa0007:	add	byte ptr [ebp + 0x57], dl
+0x2fa000a:	push	esi
+0x2fa000b:	push	ebx
+0x2fa000c:	mov	ebx, ecx
+0x2fa000e:	sub	esp, 0x48
+0x2fa0011:	mov	eax, dword ptr [ebx + 8]
+0x2fa0014:	sub	eax, 2
+0x2fa0017:	mov	dword ptr [esp + 0x34], eax
+0x2fa001b:	mov	dword ptr [esp + 0x38], eax
+0x2fa001f:	mov	dword ptr [esp + 0x3c], eax
+0x2fa0023:	mov	dword ptr [esp + 0x10], ebx
+0x2fa0027:	mov	eax, ebx
+0x2fa0029:	mov	ebx, dword ptr [eax + 4]
+0x2fa002c:	mov	esi, dword ptr [eax + 0xc]
+0x2fa002f:	mov	ecx, dword ptr [eax]
+0x2fa0031:	mov	eax, dword ptr [eax + 0x20]
+0x2fa0034:	mov	edx, dword ptr [ecx + 4]
+0x2fa0037:	mov	edi, dword ptr [ecx + 8]
+0x2fa003a:	add	eax, 1
+2820	x32dbg.exe	0x3a90000	0x3a91fff	VadS	PAGE_EXECUTE_READWRITE	2	1	Disabled	N/A	
+b0 00 eb 70 b0 01 eb 6c	...p...l
+b0 02 eb 68 b0 03 eb 64	...h...d
+b0 04 eb 60 b0 05 eb 5c	...`...\
+b0 06 eb 58 b0 07 eb 54	...X...T
+b0 08 eb 50 b0 09 eb 4c	...P...L
+b0 0a eb 48 b0 0b eb 44	...H...D
+b0 0c eb 40 b0 0d eb 3c	...@...<
+b0 0e eb 38 b0 0f eb 34	...8...4	
+0x3a90000:	mov	al, 0
+0x3a90002:	jmp	0x3a90074
+0x3a90004:	mov	al, 1
+0x3a90006:	jmp	0x3a90074
+0x3a90008:	mov	al, 2
+0x3a9000a:	jmp	0x3a90074
+0x3a9000c:	mov	al, 3
+0x3a9000e:	jmp	0x3a90074
+0x3a90010:	mov	al, 4
+0x3a90012:	jmp	0x3a90074
+0x3a90014:	mov	al, 5
+0x3a90016:	jmp	0x3a90074
+0x3a90018:	mov	al, 6
+0x3a9001a:	jmp	0x3a90074
+0x3a9001c:	mov	al, 7
+0x3a9001e:	jmp	0x3a90074
+0x3a90020:	mov	al, 8
+0x3a90022:	jmp	0x3a90074
+0x3a90024:	mov	al, 9
+0x3a90026:	jmp	0x3a90074
+0x3a90028:	mov	al, 0xa
+0x3a9002a:	jmp	0x3a90074
+0x3a9002c:	mov	al, 0xb
+0x3a9002e:	jmp	0x3a90074
+0x3a90030:	mov	al, 0xc
+0x3a90032:	jmp	0x3a90074
+0x3a90034:	mov	al, 0xd
+0x3a90036:	jmp	0x3a90074
+0x3a90038:	mov	al, 0xe
+0x3a9003a:	jmp	0x3a90074
+0x3a9003c:	mov	al, 0xf
+0x3a9003e:	jmp	0x3a90074
+2820	x32dbg.exe	0x3a80000	0x3a80fff	VadS	PAGE_EXECUTE_READWRITE	1	1	Disabled	N/A	
+00 00 00 00 00 00 00 00	........
+00 00 00 00 00 00 00 00	........
+00 00 a8 03 00 00 00 00	........
+00 00 00 00 00 00 00 00	........
+10 00 a8 03 00 00 00 00	........
+00 00 00 00 00 00 00 00	........
+20 00 a8 03 00 00 00 00	........
+00 00 00 00 00 00 00 00	........	
+0x3a80000:	add	byte ptr [eax], al
+0x3a80002:	add	byte ptr [eax], al
+0x3a80004:	add	byte ptr [eax], al
+0x3a80006:	add	byte ptr [eax], al
+0x3a80008:	add	byte ptr [eax], al
+0x3a8000a:	add	byte ptr [eax], al
+0x3a8000c:	add	byte ptr [eax], al
+0x3a8000e:	add	byte ptr [eax], al
+0x3a80010:	add	byte ptr [eax], al
+0x3a80012:	test	al, 3
+0x3a80014:	add	byte ptr [eax], al
+0x3a80016:	add	byte ptr [eax], al
+0x3a80018:	add	byte ptr [eax], al
+0x3a8001a:	add	byte ptr [eax], al
+0x3a8001c:	add	byte ptr [eax], al
+0x3a8001e:	add	byte ptr [eax], al
+0x3a80020:	adc	byte ptr [eax], al
+0x3a80022:	test	al, 3
+0x3a80024:	add	byte ptr [eax], al
+0x3a80026:	add	byte ptr [eax], al
+0x3a80028:	add	byte ptr [eax], al
+0x3a8002a:	add	byte ptr [eax], al
+0x3a8002c:	add	byte ptr [eax], al
+0x3a8002e:	add	byte ptr [eax], al
+0x3a80030:	and	byte ptr [eax], al
+0x3a80032:	test	al, 3
+0x3a80034:	add	byte ptr [eax], al
+0x3a80036:	add	byte ptr [eax], al
+0x3a80038:	add	byte ptr [eax], al
+0x3a8003a:	add	byte ptr [eax], al
+0x3a8003c:	add	byte ptr [eax], al
+0x3a8003e:	add	byte ptr [eax], al
+3904	SearchFilterHo	0xa40000	0xabffff	VadS	PAGE_EXECUTE_READWRITE	2	1	Disabled	N/A	
+00 00 00 00 00 00 00 00	........
+92 a1 f7 bd f2 bb 00 01	........
+ee ff ee ff 00 00 00 00	........
+28 01 a4 00 00 00 00 00	(.......
+28 01 a4 00 00 00 00 00	(.......
+00 00 a4 00 00 00 00 00	........
+00 00 a4 00 00 00 00 00	........
+80 00 00 00 00 00 00 00	........	
+0xa40000:	add	byte ptr [rax], al
+0xa40002:	add	byte ptr [rax], al
+0xa40004:	add	byte ptr [rax], al
+0xa40006:	add	byte ptr [rax], al
+0xa40008:	xchg	eax, edx
+0xa40009:	movabs	eax, dword ptr [0xffee0100bbf2bdf7]
+0xa40012:	out	dx, al
+0xa40013:	inc	dword ptr [rax]
+0xa40015:	add	byte ptr [rax], al
+0xa40017:	add	byte ptr [rax], ch
+0xa40019:	add	dword ptr [rax + rax], esp
+0xa40020:	sub	byte ptr [rcx], al
+0xa40022:	movsb	byte ptr [rdi], byte ptr [rsi]
+0xa40023:	add	byte ptr [rax], al
+0xa40025:	add	byte ptr [rax], al
+0xa40027:	add	byte ptr [rax], al
+0xa40029:	add	byte ptr [rax + rax], ah
+0xa40030:	add	byte ptr [rax], al
+0xa40032:	movsb	byte ptr [rdi], byte ptr [rsi]
+0xa40033:	add	byte ptr [rax], al
+0xa40035:	add	byte ptr [rax], al
+0xa40037:	add	byte ptr [rax], al
+0xa4003d:	add	byte ptr [rax], al
