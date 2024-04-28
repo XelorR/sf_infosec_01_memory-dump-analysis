@@ -47,7 +47,7 @@ qemu-system-x86_64 -enable-kvm -smp 2 -m 4G -bios /usr/share/edk2/ovmf/OVMF_CODE
 
 ## Riddles and answers
 
-### Scanning witn Volatility V3
+### Scanning with Volatility V3
 
 At first I was generating outputs of some commonly used commands, like this:
 
